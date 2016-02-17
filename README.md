@@ -11,3 +11,19 @@
 # How to use
 
 ![](http://lh6.googleusercontent.com/l9x8cOWhqPdrZt-y49NQeGPp_VEoMju0rwABpYIFAXx079NRwdnX1bgxOvOdx9BOQAJ93dkn=s1280-h800-e365-rw)
+
+
+# Current template
+```
+As a 
+I want to 
+So that I 
+
+**Technical Details**
+
+
+**Acceptance Criteria**
+
+
+```
+[see in code](https://github.com/x/StoryTemplate/blob/master/src/inject/inject.js#L37-L41)
