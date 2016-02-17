@@ -6,7 +6,7 @@
    } ],
    "default_locale": "en",
    "description": "Templating for user stories in Pivotal Tracker totally not stolen from storyscript",
-   "homepage_url": "peticol.as",
+   "homepage_url": "http://peticol.as",
    "icons": {
       "128": "icons/icon128.png",
       "16": "icons/icon16.png",
