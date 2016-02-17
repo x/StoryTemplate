@@ -4,7 +4,6 @@
       "js": [ "js/jquery/jquery.min.js", "src/inject/inject.js" ],
       "matches": [ "https://www.pivotaltracker.com/*" ]
    } ],
-   "default_locale": "en",
    "description": "Templating for user stories in Pivotal Tracker totally not stolen from storyscript",
    "homepage_url": "http://peticol.as",
    "icons": {
