@@ -34,9 +34,9 @@ chrome.extension.sendMessage({}, function(response) {
           nextSection.find('.rendered_description').trigger('click');
 
           // This is what you were looking for
-          template  = 'As a \n\n';
-          template += 'I want to \n\n';
-          template += 'So that I \n\n';
+          template  = 'As a \n';
+          template += 'I want to \n';
+          template += 'So that I \n';
           template += '**Technical Details**\n\n\n';
           template += '**Acceptance Criteria**\n\n\n';
 
