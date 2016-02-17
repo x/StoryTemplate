@@ -27,11 +27,20 @@ chrome.extension.sendMessage({}, function(response) {
           var nextSection = $(btn).parents('.model_details').eq(0).next(),
               textArea = nextSection.find('.editor.tracker_markup.description'),
               existingData = textArea.val(),
-              ev = new jQuery.Event('keyup');
+              ev = new jQuery.Event('keyup'),
+              template;
           ev.which = 13;
           ev.keyCode = 13;
           nextSection.find('.rendered_description').trigger('click');
-          textArea.val('As a user \nI want to \nBecause \n\nGiven \nWhen \nThen \n\n**_INFO:_**\r' + existingData);
+
+          // This is what you were looking for
+          template  = 'As a \n\n';
+          template += 'I want to \n\n';
+          template += 'So that I \n\n';
+          template += '**Technical Details**\n\n\n';
+          template += '**Acceptance Criteria**\n\n\n';
+
+          textArea.val(template + '\r' + existingData);
 
           nextSection.find('button[id^="story_description_done_"]').trigger('click');
 
