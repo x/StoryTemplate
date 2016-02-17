@@ -5,7 +5,7 @@
       "matches": [ "https://www.pivotaltracker.com/*" ]
    } ],
    "description": "Templating for user stories in Pivotal Tracker totally not stolen from storyscript",
-   "homepage_url": "http://peticol.as",
+   "homepage_url": "https://github.com/x/StoryTemplate",
    "icons": {
       "128": "icons/icon128.png",
       "16": "icons/icon16.png",
