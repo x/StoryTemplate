@@ -36,7 +36,7 @@ chrome.extension.sendMessage({}, function(response) {
           // This is what you were looking for
           template  = 'As a \n';
           template += 'I want to \n';
-          template += 'So that I \n';
+          template += 'So that I \n\n';
           template += '**Technical Details**\n\n\n';
           template += '**Acceptance Criteria**\n\n\n';
 
