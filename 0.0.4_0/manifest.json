@@ -5,8 +5,8 @@
       "matches": [ "https://www.pivotaltracker.com/*" ]
    } ],
    "default_locale": "en",
-   "description": "Templating for user stories in Pivotal Tracker",
-   "homepage_url": "http://storyscrip.co",
+   "description": "Templating for user stories in Pivotal Tracker totally not stolen from storyscript",
+   "homepage_url": "",
    "icons": {
       "128": "icons/icon128.png",
       "16": "icons/icon16.png",
@@ -14,7 +14,7 @@
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAte3gN8dOgK5RQj+p3hTm+rQNb0s0ejzS8PCLwlGdOnbOlJyezuL50mXj17dnV+8hoWbNXlAB63pUhU1n2jJRyCh/eWnjSvEbZpM6JJKG9oBvFGZKY7D8ywW0OPXOIN+HMe4U4BVXsVLUvL8jvOdk5EgvqRUCgox3v52EPCXFU6GNZ9g6GnCkfwJO26hZKqpeD+kO9AU1zlxXkU2uXkEZc2y3yaLPKnxkQw33KhJGLUtrMPhB1hTamEEv4QxweFJjvW/9EgCV5pyEtSvIUfTkLBgynG8i+FsuITWugUgyprZnkpE/1q7LA8AbWLyqMe96ARQkwBLGoZOpixcsSVHTZwIDAQAB",
    "manifest_version": 2,
-   "name": "StoryScrip",
+   "name": "StoryTemplate",
    "permissions": [ "https://www.pivotaltracker.com/*" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "0.0.4"
